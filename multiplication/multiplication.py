@@ -1,6 +1,7 @@
 # Multiplication Table Program
 
-num = int(input("Enter a number: "))
+num = int(input("enter your number:"))
 
-for i in range(1, 11):   # loop from 1 to 10
-    print(num, "x", i, "=", num * i)
+for i in range(1,11):
+    print( num,"x",i ,"=" ,num*i)
+
